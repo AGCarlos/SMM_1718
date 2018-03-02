@@ -1,2 +1,6 @@
-# SMM_1718
-Prácticas a las que no puedo ir C:
+# Prácticas de Sistemas Multimedia 2017 - 2018
+- Práctica 1: Fundamentos de Java
+-
+-
+-
+-
