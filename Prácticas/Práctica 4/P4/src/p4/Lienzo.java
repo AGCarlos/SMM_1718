@@ -13,12 +13,12 @@ import java.awt.Point;
  *
  * @author PC
  */
-public class Canvas extends javax.swing.JPanel {
+public class Lienzo extends javax.swing.JPanel {
 
     /**
      * Creates new form Canvas
      */
-    public Canvas() {
+    public Lienzo() {
         initComponents();
     }
 
@@ -84,11 +84,18 @@ public class Canvas extends javax.swing.JPanel {
         this.repaint();
     }//GEN-LAST:event_formMouseReleased
 
-    Color color = Color.black;
-    int mododib = 4;
-    boolean relleno=false;
+    private Color color = Color.black;
+    private int mododib = 4;
+    private boolean relleno=false;
     int a,b,ancho,alto;
 
+    public void setColor(Color a){
+        this.color=a;
+    }
+    
+    public Color getColor(){
+        return color;
+    }
     
     public void setModoDib(int a){
         this.mododib=a;
